@@ -1,0 +1,23 @@
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <title>About page</title>
+    </head>
+    <body>
+        <h1>About us</h1>
+    </body>
+</html> -->
+
+{% extends "layout.html"%}
+
+{% block content %}
+<h1>Details on Banking to get you started </h1>
+{% for post in posts %}
+<article class="media content-section">
+    <div class="media-body">
+        <p class="article-content">{{post.content}}</p>
+    </div>
+</article>
+{% endfor %}
+{%endblock content%}
+
