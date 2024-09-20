@@ -1,1 +1,1 @@
-# Banking-with-AI-citi
+# Banking-with-AI
